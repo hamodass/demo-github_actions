@@ -14,3 +14,10 @@ jobs:
        - name: Print a welcome message
          run: echo "Welecom to my first CICD workflow"
 
+       - name: Checkout repository 
+         uses: actions/checkout@v6.0.1
+
+       - name: List repository files
+         run: ls -la
+         
+
